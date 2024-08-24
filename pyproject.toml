@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tidb-vector-bug"
+version = "0.1.0"
+description = ""
+authors = ["wph95 <2732352+wph95@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+llama-index-embeddings-voyageai = "^0.1.4"
+llama-index = "^0.10.65"
+llama-index-vector-stores-tidbvector = "^0.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
